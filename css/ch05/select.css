@@ -1,0 +1,13 @@
+/* select.css */
+* {font-weight: bold; color: darkorange;}
+.blue { color: lightblue;}
+p {color: olivedrab;}
+/* p태그 이면서 blue 클래스를 가지고 있는 엘리먼트 선택 */
+p.blue { color: slateblue;}
+* {color: plum;}
+p.blue.dark{color: rgb(40, 219,138);}
+.blue.dark{ color: mediumblue;}
+#red {color: tomato;}
+
+/* 그룹선택자 */
+span, .dark, #red { text-decoration: underline;}
