@@ -8,25 +8,34 @@ nav li {display: inline-block; margin-right: 1em; color: #333;}
 #menu {z-index: 2;
     position: absolute;
     top: 0; right: 0; padding: 0 1em; height: 64px;
-    line-height: 64px; color: #333; cursor: pointer;
-    
+    line-height: 64px; color: #333; cursor: pointer;  
 } 
+/* nav {z-index: 1; position: absolute;
+    right: 0;
+    background-color: aliceblue;
+    padding-top: 100px;
+    top : -50px;}   */
+nav { position: absolute; right: 0;
+background-color: aliceblue; padding-top: 100px;}
+
+
 main div {
     margin: 1em; padding: 1em; height: 67vh; color: #333; 
     font-weight: normal; background-color: yellow;
 }
 footer { height: 200px;}
-nav {z-index: 1; position: absolute;
-right: 0;
-background-color: aliceblue;
-padding-top: 100px;
-top : -50px;}
+
 
 @media (max-width: 768px){
     nav { display: none;}
     #menu:hover + nav {
         display: inherit;
         text-align: right;
+        /* z-index: 1; position: absolute;
+        right: 0;
+        background-color: aliceblue;
+        padding-top: 100px;
+        top : -50px;  */
     }
     #menu:hover + nav li {
         display: block;
