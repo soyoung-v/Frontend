@@ -41,6 +41,10 @@
         flex-direction: column;
         width: 100%;
     }
+    .about__icon {
+    opacity: 1;
+    }
+    
 }
 
 @media (min-width: 769px) {
