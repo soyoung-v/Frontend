@@ -17,3 +17,9 @@ const arr4 = arr.map(item => {
 // {}있으면 return을 해야되고 없으면 생략이 가능하다.
 
 console.log(arr4);
+
+const arr5 = arr.filter(item => item % 2 === 0).map(item => item / 2);
+const arr6 = arr5.map(item => item / 2 );
+
+console.log(arr5);
+console.log(arr6);
